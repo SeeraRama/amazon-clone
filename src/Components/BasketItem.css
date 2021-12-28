@@ -1,0 +1,37 @@
+.basket__item {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  min-height: 20-0px;
+  min-width: 100px;
+  background-color: white;
+}
+.basket__info {
+  padding: 10px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.basket__rating {
+  display: flex;
+}
+.basket__item > img {
+  max-height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+.basket__remvoe__button {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+.basket__title,
+.basket__price {
+  font-size: 16px;
+  font-weight: 500;
+}
